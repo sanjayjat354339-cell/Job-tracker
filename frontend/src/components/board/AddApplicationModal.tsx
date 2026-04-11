@@ -1,5 +1,5 @@
 import { useState, FormEvent } from "react";
-import { Loader2, Sparkles, X, ChevronDown, ChevronUp } from "lucide-react";
+import { Loader2, Sparkles, ChevronDown, ChevronUp } from "lucide-react";
 import Modal from "../ui/Modal";
 import { useCreateApplication } from "../../hooks/useApplications";
 import { aiService } from "../../services/ai.service";
